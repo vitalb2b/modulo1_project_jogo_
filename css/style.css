@@ -31,7 +31,7 @@ section{
 
 .backImage img{
 
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
 }
@@ -74,10 +74,12 @@ section{
 
     position: absolute;
     top: 18%;
-    margin-left: 70%;
+    margin-left: 50%;
     height: 30px;
     width: 30px;
     float: right;
+    transform: translate(-20%,-150%);
+    z-index: 0;/*drop to the back*/
 }
 
 #a1{

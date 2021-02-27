@@ -68,9 +68,7 @@ function rederSpaces(){
 
             if(spaces[i].attributes[2].value != ""){
 
-                alert(`Espaço preenchido`);
-
-
+                alert(`STOP!! Espaço preenchido`);
 
             }else{
 
@@ -120,14 +118,10 @@ async function checkWinner(){
 
     let btn_reset = document.querySelector('.btn-reset').addEventListener('click', () => {
         resetGame();
-        console.log("Aqui!!!")
-        
     })
  
- 
- 
-    let winner = '';
 
+    let winner = '';
 
     //calculo para encontrar o vencedor
     if((a1 == b1 && a1 == c1 ) || 
@@ -153,7 +147,7 @@ async function checkWinner(){
 
                 //funcao para esperar completar a verificacao do vencedor e mostrar o alerta
                 await sleep (50);
-                alert(`O gahador foi ${winner}`);
+                alert(`WINNER!! ${winner}`);
             }
             
 }
@@ -166,10 +160,7 @@ function sleep (ms){
 
 
 
-
 function resetGame(){
-    var mySong = document.getElementById("songs");
-    mySong.play();
     return document.location.reload(true);
  
 }
