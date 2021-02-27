@@ -13,4 +13,4 @@ Prerequisites
 
 No hardware prerequisites needed. Just use your browser.
 
-Click here to run the game.
+Click [here](https://vitalb2b.github.io/modulo1_project_jogo_/) to run the game.

@@ -41,13 +41,13 @@ function playerMove(){
 
         const xImage = document.querySelectorAll("#images")[0];
 
-        xImage.setAttribute('src','/Users/vitalb2b/Documents/jogoVelha_project/Images/s2.jpeg ');
+        xImage.setAttribute('src','/Users/vitalb2b/Documents/jogoVelha_project/images/s2.jpeg ');
 
         console.log(xImage)
     } else {
 
         var oImage = document.querySelectorAll("#images")[0];      
-        oImage.setAttribute('src','/Users/vitalb2b/Documents/jogoVelha_project/Images/circle.jpeg');
+        oImage.setAttribute('src','/Users/vitalb2b/Documents/jogoVelha_project/images/circle.jpeg');
 
     }
 }
@@ -76,13 +76,13 @@ function rederSpaces(){
 
                     if(gameTime == play1){
     
-                        this.innerHTML = "<img src= /Users/vitalb2b/Documents/jogoVelha_project/Images/s2.jpeg  height='30' width='30' >";
+                        this.innerHTML = "<img src= /Users/vitalb2b/Documents/jogoVelha_project/images/s2.jpeg  height='30' width='30' >";
                         this.setAttribute('play', play1);
     
                         gameTime = play2
                     }else{
     
-                        this.innerHTML = "<img src= /Users/vitalb2b/Documents/jogoVelha_project/Images/circle.jpeg height='30' width='30'> ";
+                        this.innerHTML = "<img src= /Users/vitalb2b/Documents/jogoVelha_project/images/circle.jpeg height='30' width='30'> ";
                         this.setAttribute('play', play2);
                         
                         gameTime = play1;
@@ -157,8 +157,6 @@ function sleep (ms){
 
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-
-
 
 function resetGame(){
     return document.location.reload(true);

@@ -7,12 +7,10 @@
     margin-left: 410px;
     top: 68%;
     width: 252px;
-    transform: translate(-20%,-150%);
-       
+    transform: translate(-20%,-150%);       
 }
 
 .slider{
-
     position: absolute;
     top: 0;
     left: 0;
@@ -141,13 +139,6 @@ section{
     padding-left: 450px;
     position: absolute;
     bottom: 30%;
-}
-
-
-.playerImage img{
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 90px;
 }
 
 .playerImage p{
